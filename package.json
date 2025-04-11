@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "a bookstore app",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
   },
@@ -13,5 +13,8 @@
     "books"
   ],
   "author": "Kuldeep Kumar",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
 }
